@@ -43,22 +43,21 @@ Writing and Presentation week 1
 
 - ### Command di dalam Git & Github
 
-  - git init <nama_proyek>, untuk membuat repositori baru
-
-    ![git_innit](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git_init.JPG)
-
-  - <div align="justify">git commit, untuk melakukan commit atau menyimpan perubahan pada version control pada git. Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout"
-
-    ![git-commit1](<https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-commit1%20(1).jpg>)
-
-  - git push origin, untuk mempublish file atau aplikasi ke github
-
-    ![git-push](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-push%20-%20Copy.JPG)
-
-  - git clone, untuk melakukan cloning dari github ke komputer atau local
-
-    ![git-clone](<https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-clone%20(1).JPG>)
-
+  - Konfigurasi git
+    git config global user.name "alwan"
+    git config global user.email alalpribadi@gmail.com
+    Melihat hasil konfigurasi dengan git config --list Config list
+  - Membuat Repository
+    - git init digunakan untuk membuat repositori baru
+    - git Status digunakan untuk melihat apakah terjadi perubahan atau tidak pada Git
+    - git add untuk menambah file baru/file yang telah diubah pada Git
+    - git remote menghubungkan remote repository dengan project local yang telah kita buat direktorinya
+    - git commit -m "commit message" digunakan untuk menyimpan perubahan pada Git
+    - git push -u origin master digunakan untuk mengirimkan/perubahan file ke remote repository
+    - git branch -b [nama branch] digunakan untuk membuat branch baru
+    - git checkout digunakan untuk berpindah branch
+    - git merge digunakan untuk menggabungkan branch cabang ke branch master ( git merge origin/(nama branch))
+    
 ## HTML
 
 - Definisi HTML
@@ -89,7 +88,7 @@ Writing and Presentation week 1
 
 - Tag HTML
 
-  <div align="justify">Tag adalah sebauh penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
+  <div align="justify">Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
 
   &nbsp;
 
@@ -112,44 +111,12 @@ Writing and Presentation week 1
   - Tag HTML Untuk Membuat tulisan dengan link
 
     ```html
-    <a href="">Welcome To AMMAN Coding Bootcamp BATCH 3</a>
+    <a href="">Welcome To Mobile Lejenn</a>
     ```
 
     Hasilnya di web browser
 
     ![](gambar/link.jpg)
-
-  - Tag Untuk Membuat Daftar/List
-
-    - Ordered List
-
-      ```html
-      <ol>
-        Dafunda
-        <li>Dafunda Tekno</li>
-        <li>Dafunda Otaku</li>
-        <li>Dafunda Games</li>
-      </ol>
-      ```
-
-      Hasilnya di web browser
-
-      ![](gambar/ol.jpg)
-
-    - Unordered List
-
-      ```html
-      <ul>
-        Dafunda
-        <li>Dafunda Tekno</li>
-        <li>Dafunda Otaku</li>
-        <li>Dafunda Games</li>
-      </ul>
-      ```
-
-      Hasilnya di web browser
-
-      ![](gambar/ul.jpg)
 
   - Tag HTML Untuk Menampilkan gambar
 
@@ -299,7 +266,7 @@ Writing and Presentation week 1
 
 - Algoritma
 
-  - <div align="justify">Algortima Adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Untuk menyelesaikan suatu masalah, tentunya kita harus mempunyai data struktur, nah data inilah yang akan kita gunakan untuk menyelesaikan suatu masalah dengan menggunakan algoritma.
+  - <div align="justify">Algoritma Adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Untuk menyelesaikan suatu masalah, tentunya kita harus mempunyai data struktur, nah data inilah yang akan kita gunakan untuk menyelesaikan suatu masalah dengan menggunakan algoritma.
 
   &nbsp;
 
@@ -321,27 +288,7 @@ Writing and Presentation week 1
     - <div align="justify">Setiap step harus benar-benar clear dan tidak ambigu
     - <div align="justify">Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu.
     - <div align="justify">Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
-
-    &nbsp;
-
-  - Penggunaan Algortima
-
-    - Soal
-      <div align="justify">Buatlah Algoritma untuk menyelesaikan problem ini
-
-      David memiliki program yang membutuhkan untuk convert data dari jumlah jam ke detik
-
-      Contohnya jika program memiliki input 2 jam maka output yang diharapkan adalah 7200 detik
-
-    - Jawaban
-
-      - Mulai
-      - Deklarasi variabel n, hasil_convert
-      - Menambahkan nilai n
-      - <div align="justify">Melakukan proses (n jam = n \* 3600" lalu disimpan ke dalam hasil_convert
-      - Menampilkan hasil convert (n jam) = + "detik"
-      - Stop
-
+      
     &nbsp;
 
 - Pseudocode
@@ -350,47 +297,11 @@ Writing and Presentation week 1
 
     &nbsp;
 
-  - Bagaimana menulis pseudocode
-
-    - <div align="justify">Menggunakan HURUF BESAR pada kata kunci (key commands).
-
-      CONTOH: IF number is > 10 THEN …
-
-    - 1 statement = 1 baris
-    - Gunakan indentasi
-    - Simpel
-
-    Contoh :
-
-    ```md
-    STORE "width" with any number
-    STORE "height" with any nummber
-    STORE "area" without any value
-
-    CALCULATE "width" times "height"
-    SET "area" value with calculation result
-    DISPLAY "area"
-    ```
-
-    &nbsp;
-
   - Pseudocode berdasarkan kondisi masalah
 
     - Procedural
 
       Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
-
-      Contoh :
-
-      ```md
-      STORE "width" with any number
-      STORE "height" with any nummber
-      STORE "area" without any value
-
-      CALCULATE "width" times "height"
-      SET "area" value with calculation result
-      DISPLAY "area"
-      ```
 
       &nbsp;
 
@@ -402,13 +313,6 @@ Writing and Presentation week 1
 
       jika tidak maka Bob dirumah aja.
 
-      ```md
-      IF "bright"
-      DO "go to the market"
-      ELSE
-      DO "stay at home"
-      ```
-
     &nbsp;
 
     - Looping
@@ -416,21 +320,6 @@ Writing and Presentation week 1
       Komputer dapat melakukan sebuah proses yang sama berulang-ulang.
 
       Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan Looping.
-
-      Contoh :
-
-      ```md
-      STORE "count" t0 1
-
-      WHILE "count" < 11
-      DISPLAY "count"
-      CALCULATE "count" mod 2
-      STORE "reminder" value with calculation result
-      IF "reminder" equals to 0
-      DISPLAY "EVEN!"
-      ELSE
-      DISPLAY "ODD!"
-      ```
 
       &nbsp;
 
