@@ -4,29 +4,22 @@ Writing and Presentation week 1
 ## Unix Command Line
 
 - ### CLI (Command Line Interface)
-  <div align="justify">Merupakan sebuah program yang memungkinkan user mengetik perintah atau command yang akan mmemerintahkan perangkat komputer untuk melakukan suatu tugas tertentu.
+  <div align="justify">adalah antarmuka pengguna (UI) berbasis teks yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
 - ### Shell
-  <div align="justify">Agar bisa terhubung dengan komputer maka user akan memerlukan penerjemah. Maka dari itu user memerlukan yang namanya shell. Definisi shell secara harfiah sendiri adalah program yang digunakan untuk berkomunikasi atau memerintah sistem.
+  <div align="justify">Agar bisa terhubung dengan komputer maka user akan memerlukan penerjemah. Shell adalah program yang menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dieksekusi.
 - ### Terminal
-  <div align="justify">User dan komputer dihubungkan dengan namanya terminal, yaitu tempat/aplikasi dimana user dapat mengetikan atau memberikan suatu perintah. Disinilah tempat dimana shell akan berperan.
-- ### File System Structure
-
-  <div align="justify">Struktur dimana mengatur cara bagaimana data disimpan dalam sistem. Contoh dalam Sistem Operasi Windows struktur file yang disimpan menggunakan struktur yang bentuknya mirip sebuah pohon seperti gambar dibawah.
-
-  &nbsp;
-
-  ![tree](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/tree.JPG)
+  <div align="justify">User dan komputer dihubungkan dengan namanya terminal, yaitu sebuah tempat/aplikasi dimana user dapat mengetikan atau memberikan suatu perintah. Disinilah tempat dimana shell akan berperan.
 
 - ### Command
 
-  - pwd (print working directory), untuk melihat current working directory
-  - dir (directory), untuk melihat directory
-  - cd (change directory), untuk pindah directory
-  - ls (list), untuk melihat isi file di dalam directory
-  - touch, untuk membuat file directory
-  - cp (copy), untuk menyalin file directory
-  - mv (move), untuk memindahkan file directory
-  - rm (remove), untuk menghapus file directory
+  - pwd (print working directory) adalah command untuk melihat current working directory
+  - dir (directory) adalah command untuk melihat directory
+  - cd (change directory) adalah command untuk pindah directory
+  - ls (list) adalah command untuk melihat isi file di dalam directory
+  - touch adalah command untuk membuat file directory
+  - cp (copy) adalah comand untuk menyalin file directory
+  - mv (move) adalah command untuk memindahkan file directory
+  - rm (remove) adalah command untuk menghapus file directory
 
   &nbsp;
 
