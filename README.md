@@ -31,13 +31,13 @@ Writing and Presentation week 1
     <div align="justify">Merupakan aplikasi yang bertugas untuk mencatat perubahan seluruh file atau repository suatu project, yang biasanya digunakan oleh programmer sebagai tempat untuk menyimpan file programan mereka karena lebih efektif.
 
   - Github
-    <div align="justify">Merupakan vendor penyedia layanan git yang dimiliki oleh microsoft atau secara definisi merupakan layanan hosting berbasis web sebagai repositori git.
+    <div align="justify">Merupakan penyedia layanan git yang dimiliki oleh microsoft atau secara definisi merupakan layanan hosting berbasis web sebagai repositori git.
 
   &nbsp;
 
   ### Mengapa wajib menggunakan Git & Github?
 
-  <div align="justify">Alasan utamanya adalah biasanya programmer tidak akan bekerja sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
+  <div align="justify">Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
 
 &nbsp;
 
@@ -103,20 +103,16 @@ Writing and Presentation week 1
     ```html
     <b>Tebal</b> <i>Miring</i>
     ```
-
-    Hasilnya di browser
-
-    ![](gambar/tebal-miring.JPG)
+    - Tampilan di web menjadi : <br>
+    <b>Tebal</b> <i>Miring</i>
 
   - Tag HTML Untuk Membuat tulisan dengan link
 
     ```html
     <a href="">Welcome To Mobile Lejenn</a>
     ```
-
-    Hasilnya di web browser
-
-    ![](gambar/link.jpg)
+    - Tampilan di web menjadi :<br>
+    <a href="">Welcome To Mobile Lejenn</a>
 
   - Tag HTML Untuk Menampilkan gambar
 
@@ -124,9 +120,8 @@ Writing and Presentation week 1
     <img src="https://bit.ly/2FKluzq" alt="Si Kucing"></img>
     ```
 
-    Hasilnya di web browser
-
-    ![](gambar/gambar.jpg)
+    Tampilan di web menjadi :<br>
+    <img src="https://bit.ly/2FKluzq" alt="Si Kucing"></img>
 
     &nbsp;
 
@@ -151,9 +146,6 @@ Writing and Presentation week 1
      ```html
      <p style="color:red">Tulisan ini berwarna merah</p>
      ```
-
-     ![](gambar/inline.jpg)
-
   &nbsp;
 
   2. Internal CSS
@@ -183,10 +175,6 @@ Writing and Presentation week 1
        </body>
      </html>
      ```
-
-     Tampilan dari sintaks diatas adalah
-
-     ![](gambar/internal-css.jpg)
 
      &nbsp;
 
@@ -227,10 +215,6 @@ Writing and Presentation week 1
        color: black;
      }
      ```
-
-     Tampilan dari sintaks diatas adalah
-
-     ![](gambar/ekstenal-css.jpg)
 
      &nbsp;
 
