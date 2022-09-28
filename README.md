@@ -44,8 +44,6 @@ Writing and Presentation week 1
 - ### Command di dalam Git & Github
 
   - git init <nama_proyek>, untuk membuat repositori baru
-    
-    '''$git init''' 
 
     ![git_innit](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git_init.JPG)
 
