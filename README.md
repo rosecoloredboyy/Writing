@@ -28,7 +28,7 @@ Writing and Presentation week 1
 - ### Apa itu Git & Github
 
   - Git
-    <div align="justify">Merupakan aplikasi yang dapat melacaks suatu perubahan yang terjadi di suatu folder ataupun file, yang biasanya digunakan oleh programmer sebagai tempat untuk menyimpan file programan mereka karena lebih efektif.
+    <div align="justify">Merupakan aplikasi yang bertugas untuk mencatat perubahan seluruh file atau repository suatu project, yang biasanya digunakan oleh programmer sebagai tempat untuk menyimpan file programan mereka karena lebih efektif.
 
   - Github
     <div align="justify">Merupakan vendor penyedia layanan git yang dimiliki oleh microsoft atau secara definisi merupakan layanan hosting berbasis web sebagai repositori git.
@@ -37,13 +37,15 @@ Writing and Presentation week 1
 
   ### Mengapa wajib menggunakan Git & Github?
 
-  <div align="justify">Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk mengerjakan semuanya sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
+  <div align="justify">Alasan utamanya adalah biasanya programmer tidak akan bekerja sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
 
 &nbsp;
 
 - ### Command di dalam Git & Github
 
   - git init <nama_proyek>, untuk membuat repositori baru
+    
+    '''$git init''' 
 
     ![git_innit](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git_init.JPG)
 
@@ -176,7 +178,7 @@ Writing and Presentation week 1
 &nbsp;
 
 - Cara Menggunakan CSS
-
+    
   1. Inline Styles
 
      Kita menambahkann CSS langsung pada atribut HTML
