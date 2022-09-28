@@ -46,7 +46,7 @@ Writing and Presentation week 1
   - Konfigurasi git
     git config global user.name "alwan"
     git config global user.email alalpribadi@gmail.com
-    Melihat hasil konfigurasi dengan git config --list Config list
+    - Melihat hasil konfigurasi dengan git config --list Config list
   - Membuat Repository
     - git init digunakan untuk membuat repositori baru
     - git Status digunakan untuk melihat apakah terjadi perubahan atau tidak pada Git
