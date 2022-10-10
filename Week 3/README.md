@@ -66,18 +66,7 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
 - Ciri dari recursive:
   - Fungsi recursive memiliki kondisi yang menyatakan kapan fungsi tersebut berhenti. 
   - fungsi recursive selalu memaanggil dirinya sendiri sambil mengurangi atau memecahkan data masukan setiap panggilannya.
-- Contoh mencari nilai pangkat 
-    ```
-    function pow(x,n) {
-        if (n=1){
-            return x;
-        } else {
-            return x * pow(x, n-1);
-        }
-    }
-    console.log(pow(2,3)) // 8
-    ```
-
+  
 ### **JavaScript REGEX**
 - **Regex** adalah susunan karakter/karakter spesial yang menggambarkan pattern/pola untuk pencarian text pada sebuah string atau document
    > REGEX = Text Matching
@@ -93,17 +82,12 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
     let regex1 = new RegExp('Cat');
     console.log(regex1.test('Cat'))// true
     ```
-  - Karakter Set digunakan untuk mencari minimal 1 karakter yabg sesuai. Karakter set menggunakan bracket square []
+  - Karakter Set digunakan untuk mencari minimal 1 karakter yang sesuai. Karakter set menggunakan bracket square []
     ``` 
     let regex1 = new RegExp('[a-z]');
     console.log(regex1.test('abc'))// true
      ```
   - match() yaitu method yang mengembalikan nilai array dari karakter yang match
-    ``` 
-    let myRegex = /c/;
-    let myName = 'Chaca';
-    console.log(myName.match(myRegex)); // output : [ 'c', index: 3, input: 'Chaca', groups: undefined ]
-    ```
    - Flags pada javascript :
      - i : untuk menghandle case-sensitive. Tidak mempermasalhkan besar kecilnya karakter
      - g : untuk mencari kedalam seluruh string yang ingin dicari. Jika tidak menggunakan flags g maka sistem akan mengembalikan nilai array pertama yang ditemukan tanpa melanjutkan pencarian
