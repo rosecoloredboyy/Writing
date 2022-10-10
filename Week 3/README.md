@@ -33,7 +33,7 @@
     console.log(orang.length) // output 3
     ```
 - **Array Method**  atau biasa disebut dengan built in methods 
-- 
+
 ### **Multidimensional Array**
    > Multidimensional array bisa dianalogikan sebagai array of array
 - Multidimensional array sama seperti matriks yaitu memiliki 2 dimensi (x,y)
