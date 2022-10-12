@@ -249,7 +249,7 @@ function calculateArea(width,height){
   `` console.log(document.querySelector("#header "))`` 
   `` console.log(document.querySelector(".text-color-blue"))``
 - Memanipulasi content
-  Cara memanipulasi content :
+  - Cara memanipulasi content :
   1. Deklarasi varible header sebagai wadah untuk menyimpan tag HTML
   `` let header = document.getElementById("header"); ``
   2. Memanipulasi Content pada Header Content dari pemilik element dengan ID Header dengan text.Content
