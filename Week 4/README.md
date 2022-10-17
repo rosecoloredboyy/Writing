@@ -27,9 +27,9 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   - Command dasar GIT:
     - git config
 Salah satu perintah git yang paling banyak digunakan adalah git config, yang bisa digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Contohnya, perintah berikut bisa digunakan untuk mengatur email:
-    '''
+    ```
     git config --global user.email sam@google.com
-    '''
+    ```
  
  ### **Responsive Web Design**
 
