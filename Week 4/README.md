@@ -26,11 +26,40 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   - Git sebagai Version Control System. Version Control System tugasnya adalah mencatat setiap perubahan pada File (termasuk code yang kita buat) pada suatu proyek baik dikerjakan secara individu maupun tim.File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah.
   - Command dasar GIT:
     - git config
-Salah satu perintah git yang paling banyak digunakan adalah git config, yang bisa digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Contohnya, perintah berikut bisa digunakan untuk mengatur email:
+      Salah satu perintah git yang paling banyak digunakan adalah git config, yang bisa digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Contohnya, perintah berikut bisa digunakan untuk mengatur email:
+    
     ```
     git config --global user.email sam@google.com
     ```
- 
+    
+    - git init
+      Perintah ini digunakan untuk membuat repositori baru. Caranya:
+      
+      ```
+      git init
+      ```
+      
+    - git add
+      Perintah git add bisa digunakan untuk menambahkan file ke index. Contohnya, perintah berikut ii akan menambahkan file bernama temp.txt yang ada di direktori lokal ke index:
+      
+      ```
+      git add temp.txt
+      ```
+      
+    - git commit
+      Perintah git commit digunakan untuk melakukan commit pada perubahan ke head. Ingat bahwa perubahan apapun yang di-commit tidak akan langsung ke remote repository. Gunakan:
+      ```
+      git commit –m “Isi dengan keterangan untuk commit”
+      ```
+
+    - git push
+      git push adalah perintah git dasar lainnya. Push akan mengirimkan perubahan ke master branch dari remote repository yang berhubungan dengan direktori kerja Anda. Misalnya:
+
+      ```
+      git push origin master
+      ```
+- Dan command-command yang lainnya.
+
  ### **Responsive Web Design**
 
 - **Responsive Web Desin** yaitu suatu tampilan website yang dapat menyesuikan dengan perangkat yang digunakan
