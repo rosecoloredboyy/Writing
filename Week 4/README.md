@@ -58,7 +58,20 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
       ```
       git push origin master
       ```
-- Dan command-command yang lainnya.
+
+    - git branch
+      Fitur yang wajib digunakan jika berkolaborasi dengan developer atau dalam tim. Untuk menghindari conflict code yang dikembangkan, kita tidak boleh berkolaborasi dalam project di satu branch yang sama!
+      
+      ```
+      git branch <branch>
+      ```
+
+      - Untuk menghapus branch:
+
+        ``` 
+        git branch -d <branch-name>
+        ```
+
 
  ### **Responsive Web Design**
 
