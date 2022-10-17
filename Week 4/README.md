@@ -6,9 +6,9 @@ Secara sederhana Promise merupakan sebuah janji. Logika cara kerja Promise sama 
 
 Layaknya kamu membuat janji, terdapat tiga kemungkinan state yang dapat terjadi di dalam Promise, antara lain:
 
- > Pending : Dalam keadaan awal, tidak terpenuhi atau tidak ditolak
- > Fulfilled : Artinya terpenuhi atau sukses
- > Rejected : Artinya tidak terpenuhi atau gagal
+ - Pending : Dalam keadaan awal, tidak terpenuhi atau tidak ditolak
+ - Fulfilled : Artinya terpenuhi atau sukses
+ - Rejected : Artinya tidak terpenuhi atau gagal
  
 - Fetch
   ```
