@@ -1,4 +1,4 @@
-# Writing and Presentation Test Week 4
+# Writing
 ### **Asycnhronous**
 Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utama atau biasa disebut main thread. Hal tersebut tidak akan membloking proses runtime atau menunggu hingga proses selesai dilakukan. Sembari menunggu proses tersebut selesai, compiler akan mengeksekusi perintah kode selanjutnya.
 - Promise 
@@ -75,10 +75,9 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   "dark":       $dark
   );
   ```
- 
+ ![warna-bootstrap-4](https://user-images.githubusercontent.com/114548824/196225817-815bb6e4-8d52-403a-af1e-eb629e178cca.png)
 
-- Kapan kita menggunakan bootstrap?
-  - Boostrap digunakan ketika membuat website sederhana dan tidak memerlukan load lama
+
 - Layout pada boostrap :
   - Breakpoints merupakan suatu cara yang dilakukan untuk membuat desain responsif dengan mengontrol kapan tata letak yang disesuaikan dengan ukuran perangkat
     tertentu.
