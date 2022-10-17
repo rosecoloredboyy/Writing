@@ -11,33 +11,23 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   - Rejected : Artinya tidak terpenuhi atau gagal
  
 - Fetch
-  ```
-    fetch("https://pokeapi.co/api/v2/pokemon/pikachu/", {
-    method: "GET"
-    })
-     .then(async (response) => {
-    let convertData = await response.json();
-    console.log(convertData);
-    })
-    .catch((error) => {
-    console.log(error);
-    });
-  ```
+  Fetch API pada javascript adalah kegiatan untuk meminta/request layanan ke endpoint/letak url yang akan menerima request pada website secara local maupun public,       untuk mengambil response resource / sumber daya berupa data berformat json atau text yang biasa dilakukan programmer untuk membangun website yang membutuhkan data     dari website lain ataupun website yang membutuhkan konsep microservice didalamnya.
 - HTTP Request yaitu berfungsi sebagai alat komunikasi frontend dengan backend
 - HTTP Request Method
-   - GET untuk mengambil data 
-   - POST untuk mengirimkan data
-   - PUT untuk mengirimkan atau memperbaharui data
-   - DELETE untuk menghapus data
+  - GET untuk mengambil data 
+  - HEAD untuk mengambil informasi tentang URL dari Web Server
+  - POST untuk mengirimkan data
+  - PUT untuk mengirimkan atau memperbaharui data
+  - DELETE untuk menghapus data
  
  ### **Responsive Web Design**
+
 - **Responsive Web Desin** yaitu suatu tampilan website yang dapat menyesuikan dengan perangkat yang digunakan
 - Chrome Dev Tools merupakan tools pada google chrome yang digunakan sebagai tools Responsive Web Design
 - Untuk mengakses Chrome Dev Tools yaitu 
   > ctrl + shift + j
   > ctrl + shift + m digunakan untuk melihat toggle bar 
 - Dalam menggunakan Responsive Web Design pada bagian HTML perlu ditambahkan **viewport** pada bagian head agar tampilan website dapat menyesuaikan dengan berbagai device
-- Untuk membuat suatu gambar pada halaman website agar menjadi responsive dapat dilakukan dengan menambahkan atribut Max - width = 100% pada bagian gambar
 - **Media Query** salah satu cara untuk mengatur suatu website agar bisa terdiri dari beberapa jenis 
 - Penggunaan media query yang umum digunakan adalah min-width dan max-width
 - Contoh penerapan media query 
@@ -47,30 +37,20 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   - Menggabungkan semua styling css device menjadi 1 
 - Breakpoint yaitu istilah saat terjadi perubahan ukuran pada suatu website ketika berganti device
 - Terdapat 3 jenis breakpoint yaitu desktop, tablet, dan mobile phone
-- Penggunaan breakpoint pada media query dapat dilakukan dengan membuat range ukuran sesuai dengan tampilan device yang ingin dibuat
 - Contoh breakpoint dapat ditulis seperti ini
   ```
-  @media screen and (min-width: 500px) and (max-width: 700px) {
+  @media screen and (min-width: 300px) and (max-width: 767px) {
   body {
-    background-color: grey 
+    background-color: white 
     }
    }
   ```
 - Flexbox bertujuan untuk membuat website yang lebih efisien dalam mengatur, menata dan item pada dalam sebuah wadah bahkan ketika ukurannya tidak diketahui dan/atau dinamis (dengan menggunakan kata "flex").
 - Flexbox properties :
   - Flex direction : menetapkan sumbu utama item, sehingga menentukan arah item fleksibel ditempatkan di wadah fleksibel. 
-    - Row : Kiri ke kanan
-    - Row-Reverse : Kanan ke kiri
-    - Column : Atas ke bawah
-    - Column-Reverse : Bawah ke atas
   - Flex Wrap : Secara default, semua item pada flexbox akan mencoba berada dalam satu baris. Maka dengan flex wrap kita dapat mengubah hal tersebut.
-    - nowrap : semua item flex akan berada dalam satu baris
-    - wrap : item fkex akan membungkus ke beberapa baris, dari atas ke bawah.
-    - wrap-reverse :item flex akan membungkus beberapa baris dari bawah ke atas.
   - Flex flow : cara singkat untuk properti flex-direction dan flex-wrap, yang bersama-sama menentukan sumbu utama dan sumbu silang container flex. Nilai default adalah baris nowrap.
-  - Align items
-  - Contoh :
-  - ![align](https://user-images.githubusercontent.com/64596495/184914490-9233304c-402e-4a70-978d-c34cbd43b44e.JPG)
+  - Align items : membantu mendistribusikan item-item yg ada di dalam container
 - Grid merupakan sistem tata letak berbasis dua dimensi.
 - Pada Grid ada 2 jenis yaitu grid container dan grid item.
 
@@ -81,11 +61,7 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   - bootstrap.css
   - bootstrap.js
 - Cara konfigurasi bootstrap :
-  - Membuat tag boostrap di head. Cara memanggil css bootstrap dengan menggunakan href lalu mengganti link href css lokal dengan link boostrap online.
-- Contoh penggunaan content bootstrap :
-  - CSS : bootstrap.min.css, bootstrap-grid.css, dll
-  - JS : bootstrap.bundle.js, bootstrap.min.js, dll
-- Komponen Bootstrap sebagian besar dibangun dengan base-modifier nomenclature.Contohnya mengelompokkan beberapa properti kedalam kelas dasar seperti .btn, seperti .btn-primary or .btn-success.
+  - Membuat tag boostrap di HEAD. Cara memanggil css bootstrap dengan menggunakan href lalu mengganti link href css lokal dengan link boostrap online.
 - Penggunaan theme color pada boostrap dapat menggunakan keyword berikut :
   ```
   $theme-colors: (
@@ -99,6 +75,7 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   "dark":       $dark
   );
   ```
+  ![This is an image] (https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2021/12/14111301/warna-bootstrap-4.png)
 
 - Kapan kita menggunakan bootstrap?
   - Boostrap digunakan ketika membuat website sederhana dan tidak memerlukan load lama
