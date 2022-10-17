@@ -75,7 +75,7 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   "dark":       $dark
   );
   ```
-  ![This is an image] (https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2021/12/14111301/warna-bootstrap-4.png)
+ 
 
 - Kapan kita menggunakan bootstrap?
   - Boostrap digunakan ketika membuat website sederhana dan tidak memerlukan load lama
