@@ -1,5 +1,6 @@
 # Writing
 ### **Asycnhronous**
+
 Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utama atau biasa disebut main thread. Hal tersebut tidak akan membloking proses runtime atau menunggu hingga proses selesai dilakukan. Sembari menunggu proses tersebut selesai, compiler akan mengeksekusi perintah kode selanjutnya.
 - Promise 
   Secara sederhana Promise merupakan sebuah janji. Logika cara kerja Promise sama seperti selayaknya kamu membuat janji dengan seseorang. Contohnya kamu membuat janji   dengan temanmu untuk belajar bersama. Terdapat beberapa kemungkinan yang terjadi kepada janji yang kamu buat dengan temanmu tadi yaitu kamu belum memenuhi janjimu,     kamu sudah memenuhi janjimu, atau kamu tidak memenuhi janji bekerja kelompokmu.
@@ -18,6 +19,17 @@ Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utam
   - POST untuk mengirimkan data
   - PUT untuk mengirimkan atau memperbaharui data
   - DELETE untuk menghapus data
+ 
+  ### **GIT dan Github Lanjutan**
+  
+  Git adalah aplikasi yang dapat melacak setiap perubahan yang terjadi pada suatu folder atau file. Git biasanya digunakan oleh para programmer sebagai tempat penyimpanan file pemrograman mereka, karena lebih efektif.
+  - Git sebagai Version Control System. Version Control System tugasnya adalah mencatat setiap perubahan pada File (termasuk code yang kita buat) pada suatu proyek baik dikerjakan secara individu maupun tim.File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah.
+  - Command dasar GIT:
+    - git config
+Salah satu perintah git yang paling banyak digunakan adalah git config, yang bisa digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Contohnya, perintah berikut bisa digunakan untuk mengatur email:
+    '''
+    git config --global user.email sam@google.com
+    '''
  
  ### **Responsive Web Design**
 
