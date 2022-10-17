@@ -2,6 +2,13 @@
 ### **Asycnhronous**
 Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utama atau biasa disebut main thread. Hal tersebut tidak akan membloking proses runtime atau menunggu hingga proses selesai dilakukan. Sembari menunggu proses tersebut selesai, compiler akan mengeksekusi perintah kode selanjutnya.
 - Promise 
+Secara sederhana Promise merupakan sebuah janji. Logika cara kerja Promise sama seperti selayaknya kamu membuat janji dengan seseorang. Contohnya kamu membuat janji dengan temanmu untuk belajar bersama. Terdapat beberapa kemungkinan yang terjadi kepada janji yang kamu buat dengan temanmu tadi yaitu kamu belum memenuhi janjimu, kamu sudah memenuhi janjimu, atau kamu tidak memenuhi janji bekerja kelompokmu.
+
+Layaknya kamu membuat janji, terdapat tiga kemungkinan state yang dapat terjadi di dalam Promise, antara lain:
+
+ > Pending : Dalam keadaan awal, tidak terpenuhi atau tidak ditolak
+ > Fulfilled : Artinya terpenuhi atau sukses
+ > Rejected : Artinya tidak terpenuhi atau gagal
  
 - Fetch
   ```
