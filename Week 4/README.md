@@ -1,5 +1,5 @@
 # Writing
-### **Asycnhronous**
+### **Asynchronous**
 
 Kode yang dituliskan secara asynchronous akan dieksekusi di belakang thread utama atau biasa disebut main thread. Hal tersebut tidak akan membloking proses runtime atau menunggu hingga proses selesai dilakukan. Sembari menunggu proses tersebut selesai, compiler akan mengeksekusi perintah kode selanjutnya.
 - Promise 
