@@ -1,0 +1,52 @@
+# Writing Week 5
+## **React JavaScript**
+> React adalah library atau framework yang dikhususkan bagi client/user untuk membuat tampilan website
+- React membuat aplikasi menjadi lebih cepat
+- React bersifat open source
+- React JS adalah salah satu library yang sangat populer.
+- Step menggunakan React JS :
+  - Menginstall node js
+  - Menginstall npm install -g create-react-app
+  - Membuat project dengan npx create-react-app [nama-project]
+- File extension dari javascript pada react adalah JSX
+- Rules JSX
+  - Hanya boleh memiliki 1 parent 
+  - Memiliki DOM manipulation 
+  - Atribut class di tag HTML harus menggunakan className
+  - Menggunakan kurung kurawal {} untuk mengakses variabel JSX
+- Virtual DOM : sebuah javascript object (virtual) yang merepresentasikan DOM yang sebenarnya (real DOM)
+- Component pada React JS merupakan  core pada React JS yang bersifat enkapsulasi atau pembungkus pada react dimana dalam 1 page dapat terdiri dari beberapa component
+- Cara membuat component :
+  - Menggunakan function
+  - Menggunakan class
+- Functional Component hanya bisa menggunakan props itu sebabnya function component disebut stateless component
+- Class Component dapat menggunakan props dan state
+- props & state digunakan untuk menghandle data di dalam component.
+- Props merupakan data yang dapat kita kirimkan dari suatu component ke component lain
+- State digunakan untuk menghandle data yang sifatnya berubah-ubah dan data yang bersifat private yang hanya dapat diakses oleh component tersebut saja
+- Stateless dan Statefull Component
+  - Stateless Component adalah component yang tidak memiliki state internal sendiri, melainkan data yang didapatkan oleh komponen tersebut berasal dari luar
+  - Statefull Component adalah component yang memiliki state sendiri sehingga stateful component harus menggunakan fungsi setState/useState di dalam tubuh fungsi
+- Lifecycle adalah siklus hidup pada React js
+- Struktur Lifecycle :
+  - Constructor: inisialisasi struktur data pada suatu component
+  - function : fungsi yg dibutuhkan pada komponen
+  - Render: proses return atau mengembalikan component asli 
+- Jenis - jenis Lifecycle Component Class:
+  - Mounting : Siklus ketika aplikasi sesaat sebelum component dibuka.
+    - componentDidMount adalah ketika memuat aplikasi sebelum di render
+    - componentWillMount adalah ketika aplikasi dimuat setelah proses render dilakukan.
+  - Updating : Ketika component di update atau diubah
+  - Unmount : Proses menghancurkan component yang sebelumnya di definisikan
+- Hooks
+  - Hooks merupakan fitur terbaru pada React yang berguna untuk melakukan state management dan side effects di dalam function component.
+    Kelebihan menggunakan hooks adalah code yang digunakan akan lebih pendek, clean dan mudah dimengerti.
+    Jenis Hooks yang sering digunakan yaitu useState dan useEffect.
+- Use State pada hooks digunakan untuk membuat dan mengupdate state.
+- Penggunaan useState pada hooks biasanya digunakan untuk penyimpanan data pada form yang selanjutnya data tersebut akan di post ke api lalu dproses.
+- Use Effect
+  - Hooks yang digunakan untuk menggunakan lifecycle pada functional component dengan mudah.
+  - Lifecycle pada hooks hanya menggunakan useEffect yang menyatukan component DidMount, ComponentDidUpdate dan componenetWillUnmount.
+  - side effect pada react adalah function yang dieksekusi setelah render yang biasanya ditempatkan dibawah state
+- Prop Types
+  - PropTypes merupakan sebuah library yang dapat membantu dalam memeriksa tipe data props yang apabila tidak sesuai maka akan memunculkan pesan error
