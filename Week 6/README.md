@@ -1,13 +1,5 @@
-# Materi Minggu 7
-
-## Daftar Isi
-
-1. [React Router](#react-router)
-2. [Redux](#redux)
-
-<br>
-
-## React Router v6
+# Writing Week 6
+## **React Router**
 
 React Router v6 adalah library yang digunakan untuk membuat routing pada
 aplikasi React. React Router v6 merupakan versi terbaru dari React Router yang
