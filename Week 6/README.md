@@ -1,4 +1,4 @@
-# Writing Week 5
+# Writing Week 6
 ## **React JavaScript**
 > React adalah library atau framework yang dikhususkan bagi client/user untuk membuat tampilan website
 - React membuat aplikasi menjadi lebih cepat
